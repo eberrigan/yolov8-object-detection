@@ -1,0 +1,22 @@
+name: object-detection
+
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  # - defaults
+
+dependencies:
+  - python=3.9
+  - ipython
+  - jupyterlab
+  - pytorch
+  - torchvision
+  - pytorch-cuda=11.8
+  - ultralytics
+  - matplotlib
+  - seaborn
+  - ffmpeg
+  - pip
+  - pip:
+    - sleap-io
